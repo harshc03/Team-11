@@ -1,0 +1,110 @@
+
+/* list-style-type:none for marker of li elements */
+/* reset styles, body likhte toh sirf body ki margin padding nikalta, * likha hai toh sab elements ki margin adding nikal di */
+/* text aur border se khelna hai jagah chhodni hai nav bar ke left side se toh prefer padding */
+/* 2 elements ke beech jagah chahiye toh always go for padding, example: yaha navbar li mein elements ke beech padding di hai, nahi toh
+it will work  as a collapsible margin, overlap hogi margin */
+
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+
+/* bringing list items in one line */
+.navbar li{
+
+    display:inline-block;
+    padding:15px;
+    font-size:large;
+    
+    
+}
+
+
+/* removing underline and changing color */
+.navbar a
+{
+
+    text-decoration: none;
+    color:azure;
+    opacity:0.9;
+
+    
+
+}
+
+/* 25px 20px --> 25 is top and bottom, 20 is left and right */
+.navbar{
+
+    padding:30px;
+    background-color:#1F456E;
+    position: sticky;
+    top:0px;
+    opacity: 0.9;
+   
+}
+
+.margin
+{
+    margin:30px 50px;
+}
+/* position:fixed, apni jagah se nikal jayega and top se 40px ayega, kitna b scroll karo rahega vahin fixed*/
+/* position: sticky, scroll karo kitna b, hoga scroll, par rukega top se 40px pe hi, body ki height 1800 px krke dekh and position fixed and
+sticky try kar*/
+/* navbar section ends */
+
+/* main section */
+.left
+{
+    display:inline-block;
+    width:50%;
+    vertical-align: top;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    
+} 
+
+.right
+{
+    display:inline-block;
+    width:50%;
+    vertical-align: top;
+    text-align: right;
+}
+img{
+
+    width:40%;
+    border-radius: 15px;
+    /* position: relative; */
+    bottom: 50px;
+    left:5px;
+}
+.main
+{
+    margin:30px 50px;
+    background-color: steelblue;
+    /* opacity: 0.7; */
+    vertical-align: top;
+    border-radius: 5px;
+    padding:15px;
+    padding-right: 0px;
+    color:white;
+    
+   
+}
+
+body{
+
+    background-color:white;
+    /* height:1800px; */
+}
+
+.navbar ul li{
+    margin:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* navbar section ends */
