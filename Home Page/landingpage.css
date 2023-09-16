@@ -1,0 +1,24 @@
+.navbar-brand{
+  font-family: 'Asap', sans-serif;
+font-family: 'Cedarville Cursive', cursive;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.container{
+  padding: 0;
+}
+
+.card-footer button{
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card{
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgb(160, 160, 245);
+}

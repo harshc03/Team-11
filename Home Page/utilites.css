@@ -1,0 +1,22 @@
+.d-flex
+{
+    display: flex;
+}
+
+.text-success
+{
+    color:#28a745;
+}
+
+.btn-success
+{
+    color:#28a745;
+    color:#fff;
+}
+
+.btn
+{
+    border:2px solid;
+    text-decoration: none;
+    padding:10px;
+}
